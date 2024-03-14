@@ -11,7 +11,7 @@ Content-Type: application/json
     "name": "Luca",
     "surname": "Rossi",
     "email": "emailprova@email.it",
-    "date_of_birth": "15/07/1998",
+    "birthday": "15/07/1997",
     "avatar": "M"
 }
 

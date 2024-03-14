@@ -12,7 +12,7 @@ const UserSchema = new mongoose.Schema({
     email: {
         type: String,
     },
-    date_of_birth: {
+    birthday: {
         type: String,
     },
     avatar: {

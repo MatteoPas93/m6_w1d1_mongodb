@@ -39,7 +39,7 @@ router.post("/createAuthor", async (request, response) => {
     name: request.body.name,
     surname: request.body.surname,
     email: request.body.email,
-    date_of_birth: request.body.date_of_birth,
+    birthday: request.body.birthday,
     avatar: request.body.avatar,
   });
 
