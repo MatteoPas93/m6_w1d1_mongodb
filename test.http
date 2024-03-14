@@ -8,20 +8,20 @@ POST http://localhost:3028/createAuthor
 Content-Type: application/json
 
 {
-    "name": "Luca",
+    "name": "Marco",
     "surname": "Rossi",
     "email": "emailprova@email.it",
-    "birthday": "15/07/1997",
+    "birthday": "15/15/1994",
     "avatar": "M"
 }
 
 ####
 
-GET http://localhost:3028/getAuthor/65f0731b93524eb16e88d030
+GET http://localhost:3028/getAuthor/65f32cfe367f72ef8b11d98e
 
 ####
 
-PATCH http://localhost:3028/updateAuthor/65f0731b93524eb16e88d030
+PATCH http://localhost:3028/updateAuthor/65f32cfe367f72ef8b11d98e
 Content-Type: application/json
 
 {
@@ -31,3 +31,7 @@ Content-Type: application/json
 ####
 
 DELETE http://localhost:3028/deleteAuthor/65f320a920074f7b8b790b9f
+
+####
+
+GET http://localhost:3028/getAuthors
