@@ -22,14 +22,14 @@ router.get("/getAuthor/:id", async (request, response) => {
     if (!author) {
       return response.status(404).send({
         statusCode: 404,
-        message: "The requested author not exist!",
+        message: "The requested author does not exist!",
       });
     }
     response.status(200).send(author);
   } catch (error) {
     response.status(500).send({
       statusCode: 500,
-      message: "Internale Server Error",
+      message: "Internal Server Error",
     });
   }
 });
@@ -66,7 +66,7 @@ router.patch("/updateAuthor/:id", async (request, response) => {
     if (!author) {
       return response.status(404).send({
         statusCode: 404,
-        message: "The requested author not exist!",
+        message: "The requested author does not exist!",
       });
     }
 
@@ -97,7 +97,7 @@ router.delete("/deleteAuthor/:id", async (request, response) => {
     if (!author) {
       return response.status(404).send({
         statusCode: 404,
-        message: 'The requested author not exist"',
+        message: 'The requested author does not exist"',
       });
     }
 
