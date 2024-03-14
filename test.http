@@ -31,7 +31,3 @@ Content-Type: application/json
 ####
 
 DELETE http://localhost:3028/deleteAuthor/65f320a920074f7b8b790b9f
-
-####
-
-GET http://localhost:3028/getAuthors
